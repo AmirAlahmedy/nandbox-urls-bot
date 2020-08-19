@@ -1,0 +1,31 @@
+{
+  "name": "nandbox_url_bot",
+  "version": "1.0.0",
+  "description": "A simple bot for converting URL strings to Buttons in the nandbox messenger.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nandbox",
+    "nodejs",
+    "bot",
+    "url"
+  ],
+  "author": "Amir Salah Alahmedy",
+  "license": "MIT",
+  "dependencies": {
+    "nandbox-bot-api": "^1.1.5",
+    "url-regex": "^5.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/node": "^7.5.0",
+    "@babel/plugin-proposal-class-properties": "^7.5.0",
+    "@babel/plugin-proposal-function-bind": "^7.2.0",
+    "@babel/preset-env": "^7.5.4",
+    "@babel/preset-es2015": "^7.0.0-beta.53",
+    "@babel/preset-stage-0": "^7.0.0",
+    "@babel/register": "^7.5.5"
+  }
+}
